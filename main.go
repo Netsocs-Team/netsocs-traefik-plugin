@@ -1,4 +1,4 @@
-package main
+package netsocs_traefik_plugin
 
 import (
 	"context"
