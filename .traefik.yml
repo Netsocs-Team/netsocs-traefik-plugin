@@ -1,0 +1,12 @@
+displayName: NetsocsPlugin
+type: middleware
+import: github.com/Netsocs-Team/netsocs-traefik-plugin
+summary: Netsocs feats plugins
+
+iconPath: foo/icon.png
+bannerPath: foo/banner.png
+
+testData:
+  CookieName: COOKIE_NAME
+  LicenseApi: http://localhost:8080
+  AccessControlApi: http://localhost:8080
