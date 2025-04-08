@@ -6,15 +6,10 @@ summary: Netsocs feats plugins
 iconPath: foo/icon.png
 bannerPath: foo/banner.png
 
-# testData:
-#   CookieName: COOKIE_NAME
-#   LicenseApi: http://localhost:8080
-#   AccessControlApi: http://localhost:8080
 testData:
-  KeycloakURL: "my-keycloak-url.com"
-  ClientID: "<CLIENT_ID"
-  ClientSecret: "<CLIENT_SECRET"
-  KeycloakRealm: "<REALM"
-  Scope: "openid"
-  TokenCookieName: "AUTH_TOKEN"
-  UseAuthHeader: false
+  CookieName: COOKIE_NAME
+  LicenseApi: http://localhost:8080
+  AccessControlApi: http://localhost:8080
+  CheckLicense: true
+  CheckAccessControl: true
+  CheckUserGroups: true
